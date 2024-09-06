@@ -1,0 +1,52 @@
+body{
+    background-color: beige;
+}
+#hero{
+    background-color: #8FB2C0;
+    padding-top: 72px;
+}
+#resume{
+    background-color:#B68FC0;
+}
+#projects{
+    background-color: #C09D8F;
+}
+#about{
+    background-color:#9AC08F;
+}
+#contact{
+    background-color: coral;
+}
+#hero-img{
+    border-radius: 10%;
+}
+#hero-list, #resume ul{
+    list-style-type:circle;
+}
+#hero-list lis, #resume li{
+    margin-bottom: 6px;
+}
+#hero-list img{
+    margin-right: 15px;
+    margin-bottom: 5px;
+}
+#resume span{
+    font-size: 40px;
+    font-variation-settings: 'OPSZ' 40;
+}
+#about span{
+    font-size:100px;
+    font-variation-settings: 'OPSZ' 100;
+   }
+
+#projects img{
+    margin-top: 10px;
+    height: 60px;
+    align-self: center;
+}
+@media (min-width:1024px){
+#hero,#resume,#about,#contact{
+    height: 100vh;
+    padding-top:56px;
+}
+}
